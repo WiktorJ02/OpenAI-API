@@ -36,12 +36,13 @@ src='image_placeholder.jpg'. "
     "Treść artykułu:" + article_content
 )
 ```
-i dodajemy prompt do listy messages
+i dodajemy prompt do listy "messages"
 ```
 messages=[
         {"role": "user", "content": prompt}
     ],
 ```
+Teraz artykuł z tagami HTML jest gotowy do wygenerowania
 
 ## Wymagania
 
